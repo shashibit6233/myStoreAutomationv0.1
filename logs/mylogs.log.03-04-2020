@@ -1,0 +1,146 @@
+2020-04-03  14:37:42-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  14:37:42-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  14:38:04-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  14:38:55-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  14:38:55-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  14:38:55-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  14:38:55-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  14:45:13-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  14:45:13-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  14:49:35-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  14:49:35-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  14:49:57-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  14:53:14-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  14:53:14-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  14:53:35-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  14:53:43-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  14:54:21-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  14:54:21-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  14:54:21-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  14:54:21-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  16:58:01-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  16:58:01-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  16:58:23-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  16:58:30-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  16:59:11-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  16:59:11-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  16:59:33-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  16:59:40-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  17:00:07-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  17:00:07-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  17:00:07-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  17:00:07-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  17:04:21-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  17:04:21-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  17:04:43-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  17:04:50-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  17:16:19-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  17:16:19-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  17:16:41-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  17:16:48-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  17:17:24-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  17:17:25-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  17:17:25-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  17:17:25-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  17:17:34-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  17:17:35-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:19:51-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:19:51-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:20:16-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:20:23-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  18:23:28-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:23:29-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:23:29-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:23:29-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:23:29-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:23:29-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:23:54-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:23:54-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:23:55-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:24:00-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:24:12-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  18:38:37-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:38:37-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:39:00-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:39:10-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  18:39:49-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:39:49-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:39:49-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:39:49-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:40:00-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:40:01-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:48:57-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:48:57-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:49:19-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:49:25-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  18:50:03-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:50:03-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:50:03-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:50:03-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:50:11-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:50:11-main[ mainid]  INFO  utils.DriverFactory:45 - 
+			2020-04-03  18:55:42-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:55:42-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:56:09-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:56:15-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  18:56:25-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:56:26-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:56:26-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:56:26-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:56:47-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:56:47-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:56:48-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:58:14-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:58:14-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  18:58:36-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  18:58:42-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  18:59:41-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  18:59:42-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  18:59:58-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  18:59:58-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  19:00:24-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  19:00:32-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  19:01:09-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  19:01:10-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  19:10:27-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  19:10:27-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  19:10:50-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  19:10:58-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  19:10:58-main[ mainid]  INFO  pages.SelectTshirt:51 - ----------------click check out : 1------------------
+			2020-04-03  19:11:03-main[ mainid]  INFO  pages.ProductAdded:26 - ----------------click check out : 2------------------
+			2020-04-03  19:11:05-main[ mainid]  INFO  pages.ShoppingCartSumPage:26 - ----------------click check out : 3------------------
+			2020-04-03  19:11:35-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  19:11:36-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  19:16:16-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  19:16:16-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  19:16:41-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  19:16:49-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  19:16:49-main[ mainid]  INFO  pages.SelectTshirt:51 - ----------------click check out : 1------------------
+			2020-04-03  19:16:56-main[ mainid]  INFO  pages.ProductAdded:26 - ----------------click check out : 2------------------
+			2020-04-03  19:16:58-main[ mainid]  INFO  pages.ShoppingCartSumPage:26 - ----------------click check out : 3------------------
+			2020-04-03  19:17:18-main[ mainid]  INFO  pages.Address:26 - ----------------click check out : 4------------------
+			2020-04-03  19:17:27-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  19:17:28-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  19:22:46-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  19:22:46-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  19:23:13-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  19:23:21-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  19:23:26-main[ mainid]  INFO  pages.ProductAdded:26 - ----------------click check out : 2------------------
+			2020-04-03  19:23:36-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  19:23:36-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  19:31:26-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  19:31:26-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  19:31:48-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  19:31:57-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  19:32:02-main[ mainid]  INFO  pages.ProductAdded:26 - ----------------click check out : 2------------------
+			2020-04-03  19:32:10-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  19:32:11-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			2020-04-03  19:40:31-main[ mainid]  INFO  utils.Driver:17 - utils.Driver--------------Initialise Driver--------------
+			2020-04-03  19:40:31-main[ mainid]  INFO  utils.DriverFactory:20 - class java.lang.Class--------------Initialise Driver----------------
+			2020-04-03  19:40:59-main[ mainid]  INFO  pages.Tshirts:30 - utils.Driver--User Successfully Logged In myStore with Customer name--Xyz Xyz
+			2020-04-03  19:41:07-main[ mainid]  INFO  pages.SelectTshirt:45 - Selected T-shirt color is Blue
+			2020-04-03  19:41:13-main[ mainid]  INFO  pages.ProductAdded:26 - ----------------click check out : 2------------------
+			2020-04-03  19:41:29-main[ mainid]  INFO  pages.BackToMyOrder:39 - Your order on My Store is successfully placed with Order reference YWVTGCWLW
+			2020-04-03  19:41:29-main[ mainid]  INFO  utils.Driver:33 - utils.Driver------------Close Driver--------------
+			2020-04-03  19:41:30-main[ mainid]  INFO  utils.DriverFactory:43 - ---------------Driver Closed--------------
+			

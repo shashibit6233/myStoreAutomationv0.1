@@ -1,0 +1,47 @@
+package pages;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import utils.Driver;
+
+public class BackToMyOrder extends Driver {
+	
+	private Logger logger;
+	
+	@FindBy(xpath = "//table[@id= 'order-list']/tbody/tr")
+	List<WebElement> tblRows;
+
+	
+	// constructor of the class
+		public BackToMyOrder() {
+			logger = Logger.getLogger(this.getClass());
+			PageFactory.initElements(driver, this);
+		}
+	
+	//Verifying order history table	
+		public void verifyMyOrder(String orderdet) {
+			boolean flag = false;
+			String order_ref = null;
+			for (int i = 1; i <= tblRows.size(); i++) {
+				order_ref = driver.findElement(By.xpath("//table[@id='order-list']/tbody/tr[" + i + "]/td[1]")).getText();
+				if (orderdet.contains(order_ref)) {
+					flag = true;
+					break;
+				}
+			}
+			if (flag == true) {
+				logger.info("Your order on My Store is successfully placed with Order reference: " + order_ref);
+			} else {
+				logger.info("Your order on My Store is not successfully placed");
+
+			}
+
+		}
+
+}
