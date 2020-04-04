@@ -8,7 +8,7 @@
 
 Things you need to install to run the code: -> Eclipse or Intellij Idea
 
-Testdata- Create user to login. After creating user, change user email and password in testData.properties file which is present in resources/TestData folder.
+Testdata- Create user to login. After creating user, change user email and password in testData.properties file which is present in resources.
 
 **Built With**
 
