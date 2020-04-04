@@ -22,9 +22,9 @@ Steps to run
 
 1.open project
 
-2.Go to runner class inside src/test/java/TestRunner
+2.Go to runner class inside src/test/java/runner
 
-3.Run runner class
+3.Run TestRunner class
 
 OR
 
