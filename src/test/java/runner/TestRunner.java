@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 			features="src\\main\\java\\features\\myOrder.feature", 
 			glue= {"stepdefinations"}, 
-			tags= {"@End2End"},  
+			tags= {"@SmokeTest"},  
 			plugin = {"html:target/cucumber-html-report", "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},  
 			monochrome = true, 
 			dryRun= false)	

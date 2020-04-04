@@ -2,14 +2,16 @@ package utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.Properties;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
 public class CommonFunctionsLib extends Driver {
 	public static String propvalue = null;
+	public static SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 
 	public CommonFunctionsLib() {
 
@@ -106,11 +108,12 @@ public class CommonFunctionsLib extends Driver {
 		select.selectByVisibleText(txt);
 	}
 
-	// generate random number
-	public static int generateRandomNumber() {
-		Random r = new Random();
-		int random_no = r.nextInt(100000);
-		return random_no;
+	// get timestamp
+	public static String generateTimestamp() {
+		
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		String gentimestamp = sdf.format(timestamp);
+		return gentimestamp;
 	}
 
 }
