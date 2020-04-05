@@ -27,7 +27,6 @@ public class LoginPage extends Driver {
 	}
 
 	// enter user sign in credentials
-
 	public void enterSignInDetails(String userid, String password) {
 		CommonFunctionsLib.enterTextInTextBox(txtuserid, userid);
 		CommonFunctionsLib.enterTextInTextBox(txtpwd, password);

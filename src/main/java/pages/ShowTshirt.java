@@ -5,6 +5,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import utils.CommonFunctionsLib;
 import utils.Driver;
 
 public class ShowTshirt extends Driver {
@@ -20,8 +22,7 @@ public class ShowTshirt extends Driver {
 	}
 
 	public void clickFadedTshirt() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", imgtshirt);
+		CommonFunctionsLib.scrollDownAndClick(imgtshirt);
 
 	}
 

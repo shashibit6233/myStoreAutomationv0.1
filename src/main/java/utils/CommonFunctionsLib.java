@@ -108,14 +108,26 @@ public class CommonFunctionsLib extends Driver {
 		select.selectByVisibleText(txt);
 	}
 
-	// get timestamp
+	// java script executer to scroll down and click
+	public static void scrollDownAndClick(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", element);
+
+	}
+
+	// java script executer to scroll down
+	public static void scrollDown(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", element);
+
+	}
+
+	// generate timestamp
 	public static String generateTimestamp() {
-		
+
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		String gentimestamp = sdf.format(timestamp);
 		return gentimestamp;
 	}
 
 }
-
-

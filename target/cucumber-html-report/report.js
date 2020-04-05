@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/java/features/myOrder.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/features/myOrder.feature");
 formatter.feature({
   "line": 1,
   "name": "Update User details and Order T-Shirt",
@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 14389576252,
+  "duration": 26901639068,
   "status": "passed"
 });
 formatter.background({
@@ -36,23 +36,139 @@ formatter.match({
   "location": "Steps.user_navigate_to_login_page()"
 });
 formatter.result({
-  "duration": 2194456634,
+  "duration": 4064639073,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_submits_username_and_password()"
 });
 formatter.result({
-  "duration": 1829678439,
+  "duration": 2874066743,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_is_able_to_login()"
 });
 formatter.result({
-  "duration": 30063086089,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@title\u003d \u0027View my customer account\u0027]\"}\n  (Session info: chrome\u003d80.0.3987.149)\n  (Driver info: chromedriver\u003d2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027HCL-PC\u0027, ip: \u0027192.168.1.128\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\\Users\\HCL\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61655}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}\nSession ID: 073ca78694640a259dd6e4ab64a2d9b6\n*** Element info: {Using\u003dxpath, value\u003d//a[@title\u003d \u0027View my customer account\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.getText(Unknown Source)\r\n\tat pages.Tshirts.userLoggedIn(Tshirts.java:31)\r\n\tat stepdefinations.Steps.user_is_able_to_login(Steps.java:57)\r\n\tat ✽.Then User is able to login(src/main/java/features/myOrder.feature:6)\r\n",
-  "status": "failed"
+  "duration": 53232877,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Order T-Shirt and verify Order history",
+  "description": "",
+  "id": "update-user-details-and-order-t-shirt;order-t-shirt-and-verify-order-history",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 8,
+      "name": "@End2End"
+    }
+  ]
+});
+formatter.step({
+  "line": 10,
+  "name": "User search for Tshirt",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 11,
+  "name": "User adds T-Shirts to cart",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "place order after making payment",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "user is able to verify order in order history",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.user_search_for_Tshirt()"
+});
+formatter.result({
+  "duration": 7183526228,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.user_adds_T_Shirts_to_cart()"
+});
+formatter.result({
+  "duration": 10930110014,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.place_order_after_making_payment()"
+});
+formatter.result({
+  "duration": 4786473653,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.user_is_able_to_verify_order_in_order_history()"
+});
+formatter.result({
+  "duration": 3131080721,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 97703,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 640989557,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 15396966777,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "User is Logged In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "User navigate to login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "User submits username and password",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "User is able to login",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.user_navigate_to_login_page()"
+});
+formatter.result({
+  "duration": 3872979284,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.user_submits_username_and_password()"
+});
+formatter.result({
+  "duration": 3144323156,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.user_is_able_to_login()"
+});
+formatter.result({
+  "duration": 33872109,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
@@ -79,7 +195,7 @@ formatter.step({
 });
 formatter.step({
   "line": 18,
-  "name": "User changes first name as \"Denis\"",
+  "name": "User changes first name as \"Nixon\"",
   "keyword": "When "
 });
 formatter.step({
@@ -91,32 +207,35 @@ formatter.match({
   "location": "Steps.user_navigate_to_personal_info()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2014136539,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Denis",
+      "val": "Nixon",
       "offset": 28
     }
   ],
   "location": "Steps.user_changes_first_name_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2103292463,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_be_able_to_validate_updated_information()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 389531096,
+  "duration": 36365995,
   "status": "passed"
 });
 formatter.after({
-  "duration": 593789627,
+  "duration": 35304,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 654912217,
   "status": "passed"
 });
 });

@@ -25,15 +25,13 @@ public class DriverFactory {
 				return new ChromeDriver();
 			}
 
-			else if (browserName.equals("firefox")) {
+			else {
 				System.setProperty("webdriver.gecko.driver", ffpath);
 				return new FirefoxDriver();
 			}
 
 		}
-
-		return new FirefoxDriver();
-
+		return driver;
 	}
 
 	public static void closeDriver(WebDriver driver) {

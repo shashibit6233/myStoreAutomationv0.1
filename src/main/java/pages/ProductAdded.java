@@ -8,8 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import utils.CommonFunctionsLib;
 import utils.Driver;
 
-public class ProductAdded extends Driver{
-	
+public class ProductAdded extends Driver {
+
 	private Logger logger;
 
 	@FindBy(xpath = "//a[@title= 'Proceed to checkout']")
@@ -23,7 +23,7 @@ public class ProductAdded extends Driver{
 
 	public void productAddedToShoppingKart() {
 		CommonFunctionsLib.clickButton(btnchkout);
-		
+
 	}
 
 }

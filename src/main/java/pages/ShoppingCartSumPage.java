@@ -5,13 +5,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import utils.CommonFunctionsLib;
 import utils.Driver;
 
 public class ShoppingCartSumPage extends Driver {
 	private Logger logger;
 
-	@FindBy(xpath="//p[@class='cart_navigation clearfix']/a[1]")
-	//@FindBy(xpath = "//span[contains(text(),'Proceed')]")
+	@FindBy(xpath = "//p[@class='cart_navigation clearfix']/a[1]")
 	WebElement btnchkout;
 
 	// constructor of the class
@@ -21,9 +22,7 @@ public class ShoppingCartSumPage extends Driver {
 	}
 
 	public void proceedToShopCheckOut() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", btnchkout);
-		
+		CommonFunctionsLib.scrollDownAndClick(btnchkout);
 
 	}
 

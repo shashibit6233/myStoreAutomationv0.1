@@ -6,12 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utils.CommonFunctionsLib;
 import utils.Driver;
 
 public class Address extends Driver {
 	private Logger logger;
 
-	@FindBy(name="processAddress")
+	@FindBy(name = "processAddress")
 	WebElement btnchkout;
 
 	// constructor of the class
@@ -21,9 +22,7 @@ public class Address extends Driver {
 	}
 
 	public void proceedToAddressCheckOut() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", btnchkout);
-		
+		CommonFunctionsLib.scrollDownAndClick(btnchkout);
 
 	}
 

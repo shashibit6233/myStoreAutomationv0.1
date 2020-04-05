@@ -12,7 +12,7 @@ import utils.Driver;
 public class Shipping extends Driver {
 	private Logger logger;
 
-	@FindBy(name = "processCarrier")
+	@FindBy(xpath = "//button[@name='processCarrier']")
 	WebElement btnchkout;
 
 	@FindBy(id = "cgv")
@@ -25,8 +25,6 @@ public class Shipping extends Driver {
 	}
 
 	public void proceedToShippingCheckOut() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView();", btnchkout);
 		CommonFunctionsLib.selectCheckBox(chkterms);
 		CommonFunctionsLib.clickButton(btnchkout);
 

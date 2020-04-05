@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utils.CommonFunctionsLib;
 import utils.Driver;
 
 public class OrderConfirmationPage extends Driver {
@@ -30,8 +31,7 @@ public class OrderConfirmationPage extends Driver {
 	}
 
 	public void myOrderDetails() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", lnkmyorder);
+		CommonFunctionsLib.scrollDownAndClick(lnkmyorder);
 
 	}
 

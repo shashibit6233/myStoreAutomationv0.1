@@ -34,8 +34,7 @@ public class Hooks {
 
 	@After(order = 1)
 	public void afterScenario(Scenario scenario) {
-		System.out.println("captur screenshot");
-		if (scenario.isFailed()) {
+			if (scenario.isFailed()) {
 			String screenshotName = scenario.getName().replaceAll(" ", "_")+CommonFunctionsLib.generateTimestamp();
 			try {
 				File sourcePath = ((TakesScreenshot) Driver.driver).getScreenshotAs(OutputType.FILE);

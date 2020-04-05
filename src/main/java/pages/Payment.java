@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utils.CommonFunctionsLib;
 import utils.Driver;
 
 public class Payment extends Driver {
@@ -21,9 +22,7 @@ public class Payment extends Driver {
 	}
 
 	public void selectpaymentType() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", btnpay);
-
+		CommonFunctionsLib.scrollDownAndClick(btnpay);
 	}
 
 }

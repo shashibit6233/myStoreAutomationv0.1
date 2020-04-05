@@ -35,8 +35,7 @@ public class SelectTshirt extends Driver {
 
 	// add to cart
 	public void addToCart(String quantity, String size, String color) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView();", btnAddToCart);
+		CommonFunctionsLib.scrollDown(btnAddToCart);
 
 		CommonFunctionsLib.enterTextInTextBox(txtQuantity, quantity);
 		CommonFunctionsLib.selectDDByValue(ddSize, size);
@@ -48,7 +47,6 @@ public class SelectTshirt extends Driver {
 			logger.info("Selected T-shirt color is Orange");
 		}
 		CommonFunctionsLib.clickButton(btnAddToCart);
-		
 
 	}
 

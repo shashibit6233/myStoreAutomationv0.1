@@ -14,10 +14,10 @@
 		<protocol>https</protocol>
 
 		<!-- title of the document -->
-		<documentTitle>Order Automation report</documentTitle>
+		<documentTitle>Mystore Automation report</documentTitle>
 
 		<!-- report name - displayed at top-nav -->
-		<reportName>Order Automation Report</reportName>
+		<reportName>Mystore Automation report</reportName>
 
 
 		<!-- global date format override -->
