@@ -15,7 +15,7 @@ public class Shipping extends Driver {
 	@FindBy(xpath = "//button[@name='processCarrier']")
 	WebElement btnchkout;
 
-	@FindBy(id = "cgv")
+	@FindBy(id = "uniform-cgv")
 	WebElement chkterms;
 
 	// constructor of the class

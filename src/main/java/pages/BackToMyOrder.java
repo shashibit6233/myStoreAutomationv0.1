@@ -24,7 +24,7 @@ public class BackToMyOrder extends Driver {
 	}
 
 	// Verifying order history table
-	public void verifyMyOrder(String orderdet) {
+	public Boolean verifyMyOrder(String orderdet) {
 		boolean flag = false;
 		String order_ref = null;
 		for (int i = 1; i <= tblRows.size(); i++) {
@@ -34,12 +34,8 @@ public class BackToMyOrder extends Driver {
 				break;
 			}
 		}
-		if (flag == true) {
-			logger.info("Your order on My Store is successfully placed with Order reference: " + order_ref);
-		} else {
-			logger.info("Your order on My Store is not successfully placed");
 
-		}
+		return flag;
 
 	}
 

@@ -35,8 +35,6 @@ public class SelectTshirt extends Driver {
 
 	// add to cart
 	public void addToCart(String quantity, String size, String color) {
-		CommonFunctionsLib.scrollDown(btnAddToCart);
-
 		CommonFunctionsLib.enterTextInTextBox(txtQuantity, quantity);
 		CommonFunctionsLib.selectDDByValue(ddSize, size);
 		if (color.equals("Blue")) {

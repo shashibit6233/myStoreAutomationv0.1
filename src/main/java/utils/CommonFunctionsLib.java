@@ -64,17 +64,16 @@ public class CommonFunctionsLib extends Driver {
 
 	// enter text in text box
 	public static void enterTextInTextBox(WebElement element, String txt) {
-		new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOf(element));
+		new WebDriverWait(driver, TestUtil.PAGE_LOAD_TIMEOUT).until(ExpectedConditions.visibilityOf(element));
 		if (element.isEnabled()) {
 			element.clear();
-			element.click();
 			element.sendKeys(txt);
 		}
 	}
 
 	// select checkbox
 	public static void selectCheckBox(WebElement element) {
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		if (!element.isSelected()) {
 			element.click();
 		}
@@ -82,13 +81,13 @@ public class CommonFunctionsLib extends Driver {
 
 	// click button
 	public static void clickButton(WebElement element) {
-		new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOf(element));
+		new WebDriverWait(driver, TestUtil.PAGE_LOAD_TIMEOUT).until(ExpectedConditions.visibilityOf(element));
 		element.click();
 	}
 
 	// select radio button
 	public static void selectRadio(WebElement element) {
-		new WebDriverWait(driver, 50).until(ExpectedConditions.visibilityOf(element));
+		new WebDriverWait(driver, TestUtil.PAGE_LOAD_TIMEOUT).until(ExpectedConditions.visibilityOf(element));
 		if (!element.isSelected()) {
 			element.click();
 		}
@@ -96,14 +95,14 @@ public class CommonFunctionsLib extends Driver {
 
 	// select dropdown by value
 	public static void selectDDByValue(WebElement element, String val) {
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		Select select = new Select(element);
 		select.selectByValue(val);
 	}
 
 	// select drop down by text
 	public static void selectDDByText(WebElement element, String txt) {
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		Select select = new Select(element);
 		select.selectByVisibleText(txt);
 	}
@@ -115,14 +114,7 @@ public class CommonFunctionsLib extends Driver {
 
 	}
 
-	// java script executer to scroll down
-	public static void scrollDown(WebElement element) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].click();", element);
-
-	}
-
-	// generate timestamp
+	// To generate timestamp
 	public static String generateTimestamp() {
 
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());

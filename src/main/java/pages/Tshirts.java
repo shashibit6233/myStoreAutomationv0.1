@@ -18,7 +18,7 @@ public class Tshirts extends Driver {
 	@FindBy(xpath = "//a[@title= 'View my customer account']")
 	WebElement username;
 
-	@FindBy(xpath = "//div[@id='center_column']/div/div[1]/ul/li[4]/a")
+	@FindBy(xpath="//a[@title='Information']")
 	WebElement pinfo;
 
 	// constructor of the class
@@ -27,13 +27,9 @@ public class Tshirts extends Driver {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void userLoggedIn() {
+	public String getCustomerName() {
 		String custname = username.getText();
-		if (custname != null) {
-			logger.info(Driver.class.getName() + "User Successfully Logged In myStore ");
-		} else {
-			logger.info("User not Successfully Logged in...Please try again.");
-		}
+		return custname;
 	}
 
 	public void clickTshirts() {

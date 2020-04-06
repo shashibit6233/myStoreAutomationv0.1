@@ -15,5 +15,5 @@ Scenario: Order T-Shirt and verify Order history
 @End2End @SmokeTest 
 Scenario: Update personal information in my account 
 	Given User navigate to personal info 
-	When User changes first name as "Tom" 
+	When User changes first name as "HalenDavos" 
 	Then User should be able to validate updated information

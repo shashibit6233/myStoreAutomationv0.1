@@ -22,7 +22,7 @@ public class Address extends Driver {
 	}
 
 	public void proceedToAddressCheckOut() {
-		CommonFunctionsLib.scrollDownAndClick(btnchkout);
+		CommonFunctionsLib.clickButton(btnchkout);
 
 	}
 

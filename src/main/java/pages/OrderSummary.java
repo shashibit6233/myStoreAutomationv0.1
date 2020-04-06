@@ -22,7 +22,7 @@ public class OrderSummary extends Driver {
 	}
 
 	public void orderSummary() {
-		CommonFunctionsLib.scrollDownAndClick(btnconford);
+		CommonFunctionsLib.clickButton(btnconford);
 
 	}
 

@@ -3,6 +3,9 @@ package stepdefinations;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
+import org.apache.log4j.Logger;
+import org.junit.Assert;
 import pages.Address;
 import pages.BackToMyOrder;
 import pages.HomePage;
@@ -19,7 +22,10 @@ import pages.ShowTshirt;
 import pages.Tshirts;
 import utils.CommonFunctionsLib;
 
-public class Steps {
+public class VerifyOrderSteps {
+
+	public static String orderdet = null;
+	private Logger logger = Logger.getLogger(this.getClass());
 
 	Address adr = new Address();
 	BackToMyOrder myord = new BackToMyOrder();
@@ -34,10 +40,6 @@ public class Steps {
 	ShoppingCartSumPage shopsumpage = new ShoppingCartSumPage();
 	ShowTshirt showts = new ShowTshirt();
 	Tshirts tshirt = new Tshirts();
-	PersonalInfoPage perinfo = new PersonalInfoPage();
-
-	public static String orderdet = null;
-	public static String newname = null;
 
 	@Given("^User navigate to login page$")
 	public void user_navigate_to_login_page() {
@@ -54,7 +56,9 @@ public class Steps {
 
 	@Then("^User is able to login$")
 	public void user_is_able_to_login() {
-		tshirt.userLoggedIn();
+		String custname = tshirt.getCustomerName();
+		Assert.assertNotNull(custname);
+		logger.info("--------------User logged in successfully--------------");
 
 	}
 
@@ -87,28 +91,9 @@ public class Steps {
 	public void user_is_able_to_verify_order_in_order_history() {
 		ordconf.myOrderInfo();
 		ordconf.myOrderDetails();
-		myord.verifyMyOrder(ordconf.myOrderInfo());
-
-	}
-
-	@Given("^User navigate to personal info$")
-	public void user_navigate_to_personal_info() {
-		tshirt.userLoggedIn();
-		tshirt.clickPersonalInformation();
-
-	}
-
-	@When("^User changes first name as \"([^\"]*)\"$")
-	public void user_changes_first_name_as(String fname) {
-		newname = perinfo.editFirstName(fname);
-		perinfo.enterCurrentPassword(CommonFunctionsLib.readTestDataProperties("password"));
-		perinfo.clickSaveButton();
-
-	}
-
-	@Then("^User should be able to validate updated information$")
-	public void user_should_be_able_to_validate_updated_information() {
-		perinfo.verifyName(newname);
+		Boolean flag = myord.verifyMyOrder(ordconf.myOrderInfo());
+		Assert.assertTrue(flag);
+		logger.info("Your order on My Store is successfully placed");
 
 	}
 

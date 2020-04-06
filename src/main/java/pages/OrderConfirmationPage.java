@@ -31,7 +31,7 @@ public class OrderConfirmationPage extends Driver {
 	}
 
 	public void myOrderDetails() {
-		CommonFunctionsLib.scrollDownAndClick(lnkmyorder);
+		CommonFunctionsLib.clickButton(lnkmyorder);
 
 	}
 

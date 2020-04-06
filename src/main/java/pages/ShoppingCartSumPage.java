@@ -22,7 +22,7 @@ public class ShoppingCartSumPage extends Driver {
 	}
 
 	public void proceedToShopCheckOut() {
-		CommonFunctionsLib.scrollDownAndClick(btnchkout);
+		CommonFunctionsLib.clickButton(btnchkout);
 
 	}
 

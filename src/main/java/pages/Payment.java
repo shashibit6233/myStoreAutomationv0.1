@@ -22,7 +22,7 @@ public class Payment extends Driver {
 	}
 
 	public void selectpaymentType() {
-		CommonFunctionsLib.scrollDownAndClick(btnpay);
+		CommonFunctionsLib.clickButton(btnpay);
 	}
 
 }

@@ -23,7 +23,7 @@ public class PersonalInfoPage extends Driver {
 	WebElement btnsave;
 
 	@FindBy(xpath = "//a[@title= 'View my customer account']")
-	WebElement username;
+	static WebElement username;
 
 	// constructor of the class
 	public PersonalInfoPage() {
@@ -47,11 +47,10 @@ public class PersonalInfoPage extends Driver {
 		CommonFunctionsLib.clickButton(btnsave);
 	}
 
-	// verify user name
-	public void verifyName(String name) {
+	// get user first name
+	public String verifyName() {
 		String[] arrname = username.getText().split(" ");
-		Assert.assertTrue("Updated information is verified", arrname[0].equalsIgnoreCase(name));
-		logger.info("Updated information is verified");
+		return arrname[0];
 	}
 
 }
