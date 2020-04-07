@@ -2,19 +2,14 @@ package stepdefinations;
 
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-//import org.openqa.selenium.WebDriver;
-
-import com.aventstack.extentreports.model.ScreenCapture;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 import utils.CommonFunctionsLib;
 import utils.Driver;
-//import utils.DriverFactory;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

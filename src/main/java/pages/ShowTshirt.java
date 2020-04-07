@@ -1,11 +1,9 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import utils.CommonFunctionsLib;
 import utils.Driver;
 
