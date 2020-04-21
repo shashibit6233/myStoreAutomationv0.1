@@ -22,6 +22,7 @@ public class ShowTshirt extends Driver {
 	public void clickFadedTshirt() {
 		CommonFunctionsLib.scrollDownAndClick(imgtshirt);
 
-	}
+	
+}
 
 }

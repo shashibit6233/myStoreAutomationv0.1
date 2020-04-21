@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 13864401548,
+  "duration": 17478177892,
   "status": "passed"
 });
 formatter.background({
@@ -36,21 +36,21 @@ formatter.match({
   "location": "VerifyOrderSteps.user_navigate_to_login_page()"
 });
 formatter.result({
-  "duration": 3259388815,
+  "duration": 3156992332,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.user_submits_username_and_password()"
 });
 formatter.result({
-  "duration": 2424982871,
+  "duration": 2261010605,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.user_is_able_to_login()"
 });
 formatter.result({
-  "duration": 65978997,
+  "duration": 205933873,
   "status": "passed"
 });
 formatter.scenario({
@@ -91,40 +91,40 @@ formatter.match({
   "location": "VerifyOrderSteps.user_search_for_Tshirt()"
 });
 formatter.result({
-  "duration": 5883205656,
+  "duration": 4894944758,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.user_adds_T_Shirts_to_cart()"
 });
 formatter.result({
-  "duration": 11671815635,
+  "duration": 8705027244,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.place_order_after_making_payment()"
 });
 formatter.result({
-  "duration": 5573728928,
+  "duration": 3229178631,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.user_is_able_to_verify_order_in_order_history()"
 });
 formatter.result({
-  "duration": 2446096134,
+  "duration": 2990448479,
   "status": "passed"
 });
 formatter.after({
-  "duration": 85387,
+  "duration": 162566,
   "status": "passed"
 });
 formatter.after({
-  "duration": 584049718,
+  "duration": 598235512,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11903194514,
+  "duration": 19567106345,
   "status": "passed"
 });
 formatter.background({
@@ -153,21 +153,21 @@ formatter.match({
   "location": "VerifyOrderSteps.user_navigate_to_login_page()"
 });
 formatter.result({
-  "duration": 4197289607,
+  "duration": 2788364443,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.user_submits_username_and_password()"
 });
 formatter.result({
-  "duration": 2848568345,
+  "duration": 2858997754,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyOrderSteps.user_is_able_to_login()"
 });
 formatter.result({
-  "duration": 65992134,
+  "duration": 39444208,
   "status": "passed"
 });
 formatter.scenario({
@@ -195,7 +195,7 @@ formatter.step({
 });
 formatter.step({
   "line": 18,
-  "name": "User changes first name as \"Jofer\"",
+  "name": "User changes first name as \"Roger\"",
   "keyword": "When "
 });
 formatter.step({
@@ -207,35 +207,35 @@ formatter.match({
   "location": "UpdatedPersonalInfoSteps.user_navigate_to_personal_info()"
 });
 formatter.result({
-  "duration": 2612366720,
+  "duration": 1678214263,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Jofer",
+      "val": "Roger",
       "offset": 28
     }
   ],
   "location": "UpdatedPersonalInfoSteps.user_changes_first_name_as(String)"
 });
 formatter.result({
-  "duration": 1685637308,
+  "duration": 1473637974,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatedPersonalInfoSteps.user_should_be_able_to_validate_updated_information()"
 });
 formatter.result({
-  "duration": 37806086,
+  "duration": 33712145,
   "status": "passed"
 });
 formatter.after({
-  "duration": 50083,
+  "duration": 65683,
   "status": "passed"
 });
 formatter.after({
-  "duration": 640452192,
+  "duration": 617756051,
   "status": "passed"
 });
 });
